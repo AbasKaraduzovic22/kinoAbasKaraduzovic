@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sala – Kino</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@400;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="D:\Skola\wp_projekat2\VSCODE-WEBSTR\kinoAbasKaraduzovic\css\stil.css"/>
+  <link rel="stylesheet" href="D:\Skola\wp_projekat2\VSCODE-WEBSTR\kinoAbasKaraduzovic\css\sala.css"/>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-logo">
+      <img src="D:/Skola/wp_projekat2/VSCODE-WEBSTR/kinoAbasKaraduzovic/slike/icon_192.png" alt="Logo"/>
+    </div>
+    <span class="nav-title">SALA</span>
+    <ul>
+      <li><a href="filmovi.html">Filmovi</a></li>
+      <li><a href="raspored.html">Raspored</a></li>
+      <li><a href="sala.html" class="trenutno">Sala</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="sala-box">
+
+      <div class="film-panel">
+        <div class="film-card-sala trenutno">
+          <img class="film-poster-sala" id="film-poster" src="https://via.placeholder.com/200x300/999/fff?text=Poster" alt="Film poster"/>
+          <div class="film-info-sala">
+            <div class="title" id="naziv-filma">–</div>
+            <div class="duration" id="trajanje">–</div>
+          </div>
+        </div>
+        <div class="film-meta">
+          <div class="meta-item"><span class="meta-label">Vrijeme</span><span class="meta-value" id="vrijeme">–</span></div>
+          <div class="meta-item"><span class="meta-label">Sala</span><span class="meta-value" id="sala-naziv">–</span></div>
+        </div>
+      </div>
+
+      <div class="sredina">
+        <div class="platno">PLATNO</div>
+        <div class="sjedista-grid">
+
+          <div class="red-oznaka">A</div>
+          <div class="sjediste slobodno">1</div>
+          <div class="sjediste rezervisano">2</div>
+          <div class="sjediste slobodno">3</div>
+          <div class="sjediste slobodno">4</div>
+          <div class="sjediste slobodno">5</div>
+          <div class="sjediste slobodno">6</div>
+          <div class="sjediste slobodno">7</div>
+          <div class="sjediste slobodno">8</div>
+          <div class="sjediste slobodno">9</div>
+          <div class="sjediste slobodno">10</div>
+
+          <div class="red-oznaka">B</div>
+          <div class="sjediste slobodno">1</div>
+          <div class="sjediste slobodno">2</div>
+          <div class="sjediste rezervisano">3</div>
+          <div class="sjediste slobodno">4</div>
+          <div class="sjediste slobodno">5</div>
+          <div class="sjediste slobodno">6</div>
+          <div class="sjediste slobodno">7</div>
+          <div class="sjediste slobodno">8</div>
+          <div class="sjediste slobodno">9</div>
+          <div class="sjediste slobodno">10</div>
+
+          <div class="red-oznaka">C</div>
+          <div class="sjediste slobodno">1</div>
+          <div class="sjediste zauzeto">2</div>
+          <div class="sjediste zauzeto">3</div>
+          <div class="sjediste slobodno">4</div>
+          <div class="sjediste zauzeto">5</div>
+          <div class="sjediste zauzeto">6</div>
+          <div class="sjediste zauzeto">7</div>
+          <div class="sjediste slobodno">8</div>
+          <div class="sjediste slobodno">9</div>
+          <div class="sjediste slobodno">10</div>
+
+          <div class="red-oznaka">D</div>
+          <div class="sjediste slobodno">1</div>
+          <div class="sjediste slobodno">2</div>
+          <div class="sjediste slobodno">3</div>
+          <div class="sjediste slobodno">4</div>
+          <div class="sjediste zauzeto">5</div>
+          <div class="sjediste zauzeto">6</div>
+          <div class="sjediste slobodno">7</div>
+          <div class="sjediste zauzeto">8</div>
+          <div class="sjediste slobodno">9</div>
+          <div class="sjediste slobodno">10</div>
+
+          <div class="red-oznaka">E</div>
+          <div class="sjediste slobodno">1</div>
+          <div class="sjediste slobodno">2</div>
+          <div class="sjediste slobodno">3</div>
+          <div class="sjediste slobodno">4</div>
+          <div class="sjediste slobodno">5</div>
+          <div class="sjediste slobodno">6</div>
+          <div class="sjediste slobodno">7</div>
+          <div class="sjediste slobodno">8</div>
+          <div class="sjediste slobodno">9</div>
+          <div class="sjediste slobodno">10</div>
+
+          <div class="red-oznaka">F</div>
+          <div class="sjediste slobodno">1</div>
+          <div class="sjediste slobodno">2</div>
+          <div class="sjediste slobodno">3</div>
+          <div class="sjediste slobodno">4</div>
+          <div class="sjediste slobodno">5</div>
+          <div class="sjediste slobodno">6</div>
+          <div class="sjediste zauzeto">7</div>
+          <div class="sjediste slobodno">8</div>
+          <div class="sjediste slobodno">9</div>
+          <div class="sjediste slobodno">10</div>
+
+          <div class="red-oznaka">G</div>
+          <div class="sjediste slobodno">1</div>
+          <div class="sjediste slobodno">2</div>
+          <div class="sjediste zauzeto">3</div>
+          <div class="sjediste zauzeto">4</div>
+          <div class="sjediste slobodno">5</div>
+          <div class="sjediste slobodno">6</div>
+          <div class="sjediste slobodno">7</div>
+          <div class="sjediste slobodno">8</div>
+          <div class="sjediste slobodno">9</div>
+          <div class="sjediste slobodno">10</div>
+
+          <div class="red-oznaka">H</div>
+          <div class="sjediste slobodno">1</div>
+          <div class="sjediste slobodno">2</div>
+          <div class="sjediste rezervisano">3</div>
+          <div class="sjediste slobodno">4</div>
+          <div class="sjediste slobodno">5</div>
+          <div class="sjediste slobodno">6</div>
+          <div class="sjediste slobodno">7</div>
+          <div class="sjediste slobodno">8</div>
+          <div class="sjediste slobodno">9</div>
+          <div class="sjediste slobodno">10</div>
+
+        </div>
+      </div>
+
+      <div class="legenda">
+        <div class="legenda-item"><div class="legenda-boja zauzeto">1</div><span>Zauzeto</span></div>
+        <div class="legenda-item"><div class="legenda-boja slobodno">1</div><span>Slobodno</span></div>
+        <div class="legenda-item"><div class="legenda-boja rezervisano">1</div><span>Rezervisano</span></div>
+      </div>
+
+    </div>
+  </main>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const film     = params.get('film');
+    const vrijeme  = params.get('vrijeme');
+    const sala     = params.get('sala');
+    const poster   = params.get('poster');
+    const trajanje = params.get('trajanje');
+
+    if (film)     document.getElementById('naziv-filma').textContent = film;
+    if (vrijeme)  document.getElementById('vrijeme').textContent     = vrijeme;
+    if (sala)     document.getElementById('sala-naziv').textContent  = sala;
+    if (trajanje) document.getElementById('trajanje').textContent    = trajanje;
+    if (poster)   document.getElementById('film-poster').src         = poster;
+    if (film)     document.title = 'Sala – ' + film;
+  </script>
+
+</body>
+</html>
