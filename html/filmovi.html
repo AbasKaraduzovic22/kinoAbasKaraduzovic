@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Filmovi – Kino Sala</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@400;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="D:\Skola\wp_projekat2\VSCODE-WEBSTR\kinoAbasKaraduzovic\css\stil.css"/>
+  <style>
+    a.film-link {
+      text-decoration: none;
+      color: inherit;
+      display: block;
+      max-width: var(--card-w);
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-logo">
+      <img src="D:/Skola/wp_projekat2/VSCODE-WEBSTR/kinoAbasKaraduzovic/slike/icon_192.png" alt="Logo"/>
+    </div>
+    <span class="nav-title">DANAS</span>
+    <ul>
+      <li><a href="filmovi.html" class="trenutno">Filmovi</a></li>
+      <li><a href="raspored.html">Raspored</a></li>
+      <li><a href="sala.html">Sala</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <section class="genre-section" id="akcija">
+      <h2>Akcija</h2>
+      <div class="film-grid">
+
+        <a class="film-link" href="sala.html?film=War Machine&trajanje=110 min&vrijeme=20:00&sala=Dvorana 1&poster=D:/Skola/wp_projekat2/VSCODE-WEBSTR/kinoAbasKaraduzovic/slike/war_machine.webp">
+          <div class="film-card trenutno">
+            <img class="film-poster" src="D:/Skola/wp_projekat2/VSCODE-WEBSTR/kinoAbasKaraduzovic/slike/war_machine.webp" alt="War Machine"/>
+            <div class="film-info"><div class="title">War Machine</div><div class="duration">110 min</div></div>
+          </div>
+        </a>
+
+        <a class="film-link" href="sala.html?film=Shelter&trajanje=107 min&vrijeme=21:00&sala=Dvorana 2&poster=D:/Skola/wp_projekat2/VSCODE-WEBSTR/kinoAbasKaraduzovic/slike/shelter.webp">
+          <div class="film-card trenutno">
+            <img class="film-poster" src="D:/Skola/wp_projekat2/VSCODE-WEBSTR/kinoAbasKaraduzovic/slike/shelter.webp" alt="Shelter"/>
+            <div class="film-info"><div class="title">Shelter</div><div class="duration">107 min</div></div>
+          </div>
+        </a>
+
+        <a class="film-link" href="sala.html?film=The Bluff&trajanje=102 min&vrijeme=22:00&sala=Dvorana 3&poster=D:/Skola/wp_projekat2/VSCODE-WEBSTR/kinoAbasKaraduzovic/slike/the_bluff.webp">
+          <div class="film-card uskoro">
+            <img class="film-poster" src="D:/Skola/wp_projekat2/VSCODE-WEBSTR/kinoAbasKaraduzovic/slike/the_bluff.webp" alt="The Bluff"/>
+            <div class="film-info"><div class="title">The Bluff</div><div class="duration">102 min</div></div>
+          </div>
+        </a>
+
+        <div class="film-card ugaseno">
+          <img class="film-poster" src="D:/Skola/wp_projekat2/VSCODE-WEBSTR/kinoAbasKaraduzovic/slike/the_tank.jpg" alt="The Tank"/>
+          <div class="film-info"><div class="title">The Tank</div><div class="duration">117 min</div></div>
+        </div>
+
+        <div class="film-card ugaseno">
+          <img class="film-poster" src="D:/Skola/wp_projekat2/VSCODE-WEBSTR/kinoAbasKaraduzovic/slike/inception.webp" alt="Inception"/>
+          <div class="film-info"><div class="title">Inception</div><div class="duration">148 min</div></div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="genre-section" id="drama">
+      <h2>Drama</h2>
+      <div class="film-grid">
+
+        <a class="film-link" href="sala.html?film=Interstellar&trajanje=169 min&vrijeme=19:00&sala=Dvorana 1&poster=D:/Skola/wp_projekat2/VSCODE-WEBSTR/kinoAbasKaraduzovic/slike/interstellar.webp">
+          <div class="film-card trenutno">
+            <img class="film-poster" src="D:/Skola/wp_projekat2/VSCODE-WEBSTR/kinoAbasKaraduzovic/slike/interstellar.webp" alt="Interstellar"/>
+            <div class="film-info"><div class="title">Interstellar</div><div class="duration">169 min</div></div>
+          </div>
+        </a>
+
+        <a class="film-link" href="sala.html?film=The Shawshank Redemption&trajanje=142 min&vrijeme=20:00&sala=Dvorana 2&poster=D:/Skola/wp_projekat2/VSCODE-WEBSTR/kinoAbasKaraduzovic/slike/the_shawshank_redemtion.webp">
+          <div class="film-card trenutno">
+            <img class="film-poster" src="D:/Skola/wp_projekat2/VSCODE-WEBSTR/kinoAbasKaraduzovic/slike/the_shawshank_redemtion.webp" alt="The Shawshank Redemption"/>
+            <div class="film-info"><div class="title">The Shawshank Redemption</div><div class="duration">142 min</div></div>
+          </div>
+        </a>
+
+        <a class="film-link" href="sala.html?film=The Dark Knight&trajanje=152 min&vrijeme=20:00&sala=Dvorana 2&poster=D:/Skola/wp_projekat2/VSCODE-WEBSTR/kinoAbasKaraduzovic/slike/the_dark_knight.webp">
+          <div class="film-card trenutno">
+            <img class="film-poster" src="D:/Skola/wp_projekat2/VSCODE-WEBSTR/kinoAbasKaraduzovic/slike/the_dark_knight.webp" alt="The Dark Knight"/>
+            <div class="film-info"><div class="title">The Dark Knight</div><div class="duration">152 min</div></div>
+          </div>
+        </a>
+
+        <div class="film-card ugaseno">
+          <img class="film-poster" src="D:/Skola/wp_projekat2/VSCODE-WEBSTR/kinoAbasKaraduzovic/slike/the_green_mile.webp" alt="The Green Mile"/>
+          <div class="film-info"><div class="title">The Green Mile</div><div class="duration">189 min</div></div>
+        </div>
+
+        <a class="film-link" href="sala.html?film=Fight Club&trajanje=139 min&vrijeme=22:00&sala=Dvorana 3&poster=D:/Skola/wp_projekat2/VSCODE-WEBSTR/kinoAbasKaraduzovic/slike/fight_club.webp">
+          <div class="film-card uskoro">
+            <img class="film-poster" src="D:/Skola/wp_projekat2/VSCODE-WEBSTR/kinoAbasKaraduzovic/slike/fight_club.webp" alt="Fight Club"/>
+            <div class="film-info"><div class="title">Fight Club</div><div class="duration">139 min</div></div>
+          </div>
+        </a>
+
+      </div>
+    </section>
+
+    <section class="genre-section" id="komedija">
+      <h2>Komedija</h2>
+      <div class="film-grid">
+
+        <a class="film-link" href="sala.html?film=Anaconda&trajanje=100 min&vrijeme=20:00&sala=Dvorana 1&poster=D:/Skola/wp_projekat2/VSCODE-WEBSTR/kinoAbasKaraduzovic/slike/anaconda.jpg">
+          <div class="film-card trenutno">
+            <img class="film-poster" src="D:/Skola/wp_projekat2/VSCODE-WEBSTR/kinoAbasKaraduzovic/slike/anaconda.jpg" alt="Anaconda"/>
+            <div class="film-info"><div class="title">Anaconda</div><div class="duration">100 min</div></div>
+          </div>
+        </a>
+
+        <a class="film-link" href="sala.html?film=Home Alone&trajanje=103 min&vrijeme=18:00&sala=Dvorana 4&poster=D:/Skola/wp_projekat2/VSCODE-WEBSTR/kinoAbasKaraduzovic/slike/sam_u_kuci.webp">
+          <div class="film-card trenutno">
+            <img class="film-poster" src="D:/Skola/wp_projekat2/VSCODE-WEBSTR/kinoAbasKaraduzovic/slike/sam_u_kuci.webp" alt="Home Alone"/>
+            <div class="film-info"><div class="title">Home Alone</div><div class="duration">103 min</div></div>
+          </div>
+        </a>
+
+        <a class="film-link" href="sala.html?film=Bullet Train&trajanje=126 min&vrijeme=21:00&sala=Dvorana 2&poster=D:/Skola/wp_projekat2/VSCODE-WEBSTR/kinoAbasKaraduzovic/slike/bullet_train.jpg">
+          <div class="film-card uskoro">
+            <img class="film-poster" src="D:/Skola/wp_projekat2/VSCODE-WEBSTR/kinoAbasKaraduzovic/slike/bullet_train.jpg" alt="Bullet Train"/>
+            <div class="film-info"><div class="title">Bullet Train</div><div class="duration">126 min</div></div>
+          </div>
+        </a>
+
+        <div class="film-card ugaseno">
+          <img class="film-poster" src="D:/Skola/wp_projekat2/VSCODE-WEBSTR/kinoAbasKaraduzovic/slike/zootropia.webp" alt="Zootropia"/>
+          <div class="film-info"><div class="title">Zootropia</div><div class="duration">91 min</div></div>
+        </div>
+
+        <div class="film-card ugaseno">
+          <img class="film-poster" src="D:/Skola/wp_projekat2/VSCODE-WEBSTR/kinoAbasKaraduzovic/slike/bad_boys.webp" alt="Bad Boys"/>
+          <div class="film-info"><div class="title">Bad Boys</div><div class="duration">119 min</div></div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="genre-section" id="animirani">
+      <h2>Animirani</h2>
+      <div class="film-grid">
+
+        <a class="film-link" href="sala.html?film=Spider-Man: Into the Spider-Verse&trajanje=117 min&vrijeme=17:00&sala=Dvorana 3&poster=D:/Skola/wp_projekat2/VSCODE-WEBSTR/kinoAbasKaraduzovic/slike/spider_man_into_the_spider_verse.webp">
+          <div class="film-card trenutno">
+            <img class="film-poster" src="D:/Skola/wp_projekat2/VSCODE-WEBSTR/kinoAbasKaraduzovic/slike/spider_man_into_the_spider_verse.webp" alt="Spider-Man: Into the Spider-Verse"/>
+            <div class="film-info"><div class="title">Spider-Man: Into the Spider-Verse</div><div class="duration">117 min</div></div>
+          </div>
+        </a>
+
+        <a class="film-link" href="sala.html?film=Chainsaw Man - The Movie&trajanje=78 min&vrijeme=20:00&sala=Dvorana 4&poster=D:/Skola/wp_projekat2/VSCODE-WEBSTR/kinoAbasKaraduzovic/slike/chainsaw_man.webp">
+          <div class="film-card trenutno">
+            <img class="film-poster" src="D:/Skola/wp_projekat2/VSCODE-WEBSTR/kinoAbasKaraduzovic/slike/chainsaw_man.webp" alt="Chainsaw Man - The Movie: Reze arc"/>
+            <div class="film-info"><div class="title">Chainsaw Man - The Movie: Reze arc</div><div class="duration">78 min</div></div>
+          </div>
+        </a>
+
+        <a class="film-link" href="sala.html?film=End of Evangelion&trajanje=87 min&vrijeme=22:00&sala=Dvorana 1&poster=D:/Skola/wp_projekat2/VSCODE-WEBSTR/kinoAbasKaraduzovic/slike/evangelion.webp">
+          <div class="film-card uskoro">
+            <img class="film-poster" src="D:/Skola/wp_projekat2/VSCODE-WEBSTR/kinoAbasKaraduzovic/slike/evangelion.webp" alt="Neon Genesis Evangelion: The End of Evangelion"/>
+            <div class="film-info"><div class="title">Neon Genesis Evangelion: The End of Evangelion</div><div class="duration">87 min</div></div>
+          </div>
+        </a>
+
+        <div class="film-card ugaseno">
+          <img class="film-poster" src="D:/Skola/wp_projekat2/VSCODE-WEBSTR/kinoAbasKaraduzovic/slike/spirited_away.webp" alt="Spirited Away"/>
+          <div class="film-info"><div class="title">Spirited Away</div><div class="duration">125 min</div></div>
+        </div>
+
+        <div class="film-card ugaseno">
+          <img class="film-poster" src="D:/Skola/wp_projekat2/VSCODE-WEBSTR/kinoAbasKaraduzovic/slike/puss_in_boots.webp" alt="Puss in Boots: The Last Wish"/>
+          <div class="film-info"><div class="title">Puss in Boots: The Last Wish</div><div class="duration">103 min</div></div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+</body>
+</html>
