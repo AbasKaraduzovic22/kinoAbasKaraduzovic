@@ -1,4 +1,3 @@
-/* ── GLAVNA KUTIJA ── */
 .sala-box {
   display: flex;
   align-items: flex-start;
@@ -9,7 +8,6 @@
   overflow-x: auto;
 }
 
-/* ── LIJEVO: film panel ── */
 .film-panel {
   display: flex;
   flex-direction: column;
@@ -83,7 +81,6 @@
   letter-spacing: 1px;
 }
 
-/* ── SREDINA ── */
 .sredina {
   flex: 1;
   display: flex;
@@ -93,7 +90,6 @@
   min-width: 0;
 }
 
-/* ── PLATNO ── */
 .platno {
   background: #111;
   color: #ccc;
@@ -107,7 +103,6 @@
   max-width: 500px;
 }
 
-/* ── SJEDIŠTA GRID ── */
 .sjedista-grid {
   display: grid;
   grid-template-columns: 28px repeat(10, 38px);
@@ -181,7 +176,6 @@
 .legenda-boja.zauzeto     { background: #c0392b; }
 .legenda-boja.rezervisano { background: #7f8c8d; }
 
-/* ── RESPONSIVE ── */
 @media (max-width: 900px) {
   .sala-box {
     flex-direction: column;
