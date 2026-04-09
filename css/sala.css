@@ -1,3 +1,4 @@
+
 .sala-box {
   display: flex;
   align-items: flex-start;
@@ -6,6 +7,7 @@
   border-radius: 16px;
   padding: 28px 24px;
   overflow-x: auto;
+  margin-bottom: 24px;
 }
 
 .film-panel {
@@ -22,9 +24,9 @@
   box-shadow: 0 2px 8px rgba(0,0,0,0.3);
 }
 
-.film-card-sala.trenutno { background: white; color: #111; }
+.film-card-sala.trenutno { background: white;      color: #111; }
 .film-card-sala.uskoro   { background: powderblue; color: #111; }
-.film-card-sala.ugaseno  { background: gray; color: #f0f0f0; }
+.film-card-sala.ugaseno  { background: gray;       color: #f0f0f0; }
 
 .film-poster-sala {
   width: 100%;
@@ -132,11 +134,10 @@
   transition: opacity 0.15s, transform 0.15s;
 }
 
-.sjediste:hover { opacity: 0.8; transform: scale(1.1); }
-
-.sjediste.slobodno    { background: #27ae60; }
-.sjediste.zauzeto     { background: #c0392b; cursor: default; }
-.sjediste.rezervisano { background: #7f8c8d; cursor: default; }
+.sjediste:hover          { opacity: 0.8; transform: scale(1.1); }
+.sjediste.slobodno       { background: #27ae60; }
+.sjediste.zauzeto        { background: #c0392b; cursor: default; }
+.sjediste.rezervisano    { background: #7f8c8d; cursor: default; }
 
 .sjediste.zauzeto:hover,
 .sjediste.rezervisano:hover { transform: none; opacity: 1; }
@@ -175,6 +176,45 @@
 .legenda-boja.slobodno    { background: #27ae60; }
 .legenda-boja.zauzeto     { background: #c0392b; }
 .legenda-boja.rezervisano { background: #7f8c8d; }
+
+.navigacija {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-top: 8px;
+  margin-bottom: 40px;
+}
+
+.nav-btn {
+  background: #1a1a1a;
+  color: white;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 20px;
+  font-family: 'Barlow', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+  letter-spacing: 0.5px;
+}
+
+.nav-btn:hover:not(:disabled) {
+  background: #c0392b;
+}
+
+.nav-btn:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
+.greska {
+  color: #c0392b;
+  font-weight: 600;
+  font-size: 1.1rem;
+  text-align: center;
+  padding: 20px;
+}
 
 @media (max-width: 900px) {
   .sala-box {
